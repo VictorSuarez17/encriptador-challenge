@@ -1,0 +1,225 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "inter" , sans-serif;
+}
+
+header{
+  padding: 0.6rem 1rem;
+  background-color: aliceblue;
+}
+
+.logo{
+  width: 6vw;
+  padding-left: 0.5rem;
+}
+
+main{
+  background-color: aliceblue;
+  padding: 7.9rem 2rem;
+}
+
+.area__encriptacion{
+  display: flex;
+  justify-content: space-around;
+  height: 90%;
+}
+
+.textarea{
+  background-color: aliceblue;
+  width: 50vw;
+  height: 20vw;
+  opacity: 1;
+  margin-top: 2.8rem;
+  padding: 1rem 1rem;
+  border: none;
+  border-radius: 12px;
+  font-family: "inter" , sans-serif;
+  font-size: 1.6rem;
+}
+
+.condiciones{
+  display: flex;
+  align-items: center;
+}
+
+.admiracion__logo{
+  width: 1.2rem;
+  margin-top: 0.1rem;
+}
+
+.parrafo__condicion{
+  font-family:"inter" , sans-serif;
+  font-size: 0,9rem;
+  font-weight: 400;
+  margin-top: 0.3rem;
+}
+
+.botones{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  height: 4rem;
+}
+
+#boton{
+  padding: 0.7rem 2.5rem;
+  border-radius: 15px;
+  font-size: 1.3rem;
+}
+
+.section2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 28vw;
+}
+
+.munieco{
+  width: 20vw;
+  margin: 0 1rem 4rem 0;
+}
+
+.salida__texto{
+  width: 20vw;
+  margin-bottom: 2rem;
+  font-family: "inter" , sans-serif;
+  text-align: center;
+}
+
+.mensaje1{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.mensaje2{
+  font-size: 1rem;
+}
+
+.texto__desencriptado{
+  display: none;
+  font-family: "inter" , sans-serif;
+  background-color: aliceblue;
+  font-size: 1.6rem;
+  width: 18vw;
+  height: 28rem;
+  margin: 1rem 0 0.5rem 0;
+  padding: 1rem 1.5rem 1.8rem 1.5rem;
+  border: none;
+  box-shadow: 0.5px 0.5px 8px;
+}
+
+.container__btn__copiar{
+  display: none;
+  text-align: center;
+}
+
+.salida__btn__copiar{
+  padding: 0.7rem 3.2rem;
+  margin-top: 0.2rem;
+  font-size: 1.25rem;
+  border-radius: 15px;
+}
+
+footer{
+  background-color: aliceblue;
+}
+
+.footer_content{
+  display: flex;
+  justify-content: center;
+}
+
+@media(max-width: 768px){
+  .logo{
+    width: 15vw;
+    padding-left: 0.5rem;
+  }
+
+  .area__encriptacion{
+    flex-direction: column;
+    align-items: center;  
+  }
+
+  .textarea{
+    width: 85vw;
+    height: 40vw;
+  }
+
+  .section2{
+    width: 90vw;
+    margin-top: 2rem ;
+  }
+
+  .munieco{
+    width: 40vw;
+  }
+
+  .salida__texto{
+    width: 60vw;
+  }
+
+  .texto__desencriptado{
+    width: 75vw;
+  }
+
+  main{
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+  }
+}
+
+@media (max-width: 480px){
+  .container_logo{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo{
+    width: 20vw;
+  }
+
+  main{
+    padding: 1rem 1rem;
+  }
+
+  .area__encriptacion{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 1.2rem;  
+  }
+
+  .textarea{
+    width: 90vw;
+    height: 60vw;
+    font-size: 1.8rem;
+  }
+
+  .section2{
+    width: 90vw;
+    padding: 1rem;
+    background-color: transparent;
+  }
+
+  .munieco{
+    width: 50vw;
+  }
+
+  .salida__texto{
+    width: 80vw;
+  }
+
+  .texto__desencriptado{
+    width: 85vw;
+  }
+
+  #boton{
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+
+  
+}

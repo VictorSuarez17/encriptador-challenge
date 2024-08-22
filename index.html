@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container_logo">
+      <img class="logo" src="./img/Logo.png" alt="Logo">
+    </div>
+  </header>
+
+  <main>
+    <div class="area__encriptacion">
+      <section class="section1">
+
+        <textarea class="textarea" id="campoTexto" placeholder="Ingrese su texto aqui"></textarea>
+
+        <div class="condiciones">
+          <img class="admiracion__logo" src="./img/Vector.png" alt="">
+          <p class="parrafo__condicion">Solo letras minusculas y sin acentos</p>
+        </div>
+
+        <div class="botones">
+          <button class="btn__encriptar" type="button" id="boton" onclick="botonEncriptar();">Encriptar</button>
+          <button class="btn__desencriptar" type="button" id="boton" onclick="botonDesencriptar();">Desencriptar</button>
+          <button class="btn__limpiar" type="button" id="boton" onclick="borrarTexto();">Limpiar</button>
+        </div>
+      </section>
+
+      <section class="section2">
+
+        <img class="munieco" src="./img/Muñeco.png" id="imagenSalida" alt="">
+
+        <div class="salida__texto" id="mensajes">
+          <p class="mensaje1">Ningun mensaje fue <br>encontrado</p>
+          <p class="mensaje2">Ingrese el texto que desea encriptar o <br>desencriptar</p>
+        </div>
+
+        <textarea class="texto__desencriptado" id="campoMensaje"></textarea>
+
+        <div class="container__btn__copiar" id="botonCopiar">
+          <button class="salida__btn__copiar" onclick="botonCopiar();">Copiar</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer_content">
+      <p>Desarrollado por Victor Suarez</p>
+    </div>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+</html>
